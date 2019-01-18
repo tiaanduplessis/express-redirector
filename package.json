@@ -1,0 +1,24 @@
+{
+  "name": "express-redirector",
+  "version": "1.0.0",
+  "description": "Easily configure redirects with Express",
+  "main": "index.js",
+  "repository": "https://github.com/tiaanduplessis/express-redirector",
+  "author": "Tiaan du Plessis <tiaanduplessis@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "standard --fix ."
+  },
+  "engines": {
+    "node": ">8"
+  },
+  "devDependencies": {
+    "express": "^4.16.4",
+    "standard": "^12.0.1"
+  },
+  "standard": {
+    "env": {
+      "node": true
+    }
+  }
+}
